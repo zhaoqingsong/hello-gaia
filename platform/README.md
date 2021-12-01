@@ -17,15 +17,7 @@ AppContainerPlatformService 的所有的配置为了适应云原生体系，均�
 | JENKINS\_APITOKEN         | Jenkins token            |         |                                                               |
 | JENKINS\_GITCREDENTIALSID | Jenkins 的 Git Credentials ID | |                                                               |
 | DB\_DEBUG                 | 是否启用调试模式              | false   | true                                                          |
-| CMP\_URL                  | 配置管理平台 URL            |         | http://cmp\.hellobike\.cn                                     |
-| CMP\_TOKEN                | 配置管理平台 token（系统右上角可看） |         |                                                               |
-| CRP\_URL                  | 发布平台 URL              |         | http://crp\.hellobike\.cn                                     |
-| HARBOR\_HOST              | Harbor 主机名            |         | harbor\.hellobike\.cn                                         |
-| HARBOR\_BASE\_URL         | Harbor API base URL   |         | http://$\{HARBOR\_HOST\}/api                                  |
-| HARBOR\_USERNAME          | Harbor 系统用户名          |         | admin                                                         |
-| HARBOR\_PASSWORD          | Harbor 系统密码           |         | Harbor12345                                                   |
-| GITLAB\_URL               | Gitlab URL            |         | https://gitlab.hellobike.cn                                    |
-| GITLAB\_TOKEN             | Gitlab Token          |         | xxxxxxxxxxxxxxxxxxxxxxxxxxx                                    |
+| CMP
 
 *注：生产系统可以直接注入环境变量；开发环境可以在项目根目录中放置一个 `.env` 文件中以方便调试。*
 

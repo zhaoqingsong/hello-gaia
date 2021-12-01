@@ -1,0 +1,10 @@
+app:
+  url: "http://dev-static.hellobike.cn"
+  address: "0.0.0.0:8080"
+
+db:
+  maxidle_conn: 5
+  maxopen_conn: 20
+
+storage:
+  dir: "/tmp"
